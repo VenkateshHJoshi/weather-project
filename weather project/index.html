@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Website</h1>
+        <div class="weather">
+            <h2>Weather in <span id="location">Your Location</span></h2>
+            <p id="description">Sunny</p>
+            <p>Temperature: <span id="temperature">25</span>&#8451;</p>
+            <p>Humidity: <span id="humidity">50</span>%</p>
+        </div>
+        <div class="search">
+            <input type="text" id="searchInput" placeholder="Enter location (country, state, or city)">
+            <button id="searchButton">Search</button>
+        </div>
+        <div id="additionalWeather"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
